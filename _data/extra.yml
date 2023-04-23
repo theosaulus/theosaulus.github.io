@@ -1,0 +1,51 @@
+
+- title: Higher education
+  type: time_table
+  contents:
+    - title: Elected member of the Academic Board
+      institution: <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a>, France
+      year: 2/2022 - present
+      description:
+        - Contributing to deliberations, and having a deciding vote on academic matters of Université Paris-Saclay. I am part of various commissions responsible for financing students’ projects, discussing new graduate tracks, and updating the current ones.
+        - I was elected student representative by a direct vote of university students.
+        - Université Paris-Saclay gathers about 48,000 students, anc concentrates 13% of French research.
+    
+    - title: Student Expert
+      institution: High Council for the Evaluation of Research and Higher Education (<a href="https://www.hceres.fr/en">HCERES</a>), France
+      year: 1/2021 - present 
+      description:
+        - Participating in evaluation committees of engineering schools for the HCÉRES. I am responsible for conducting staff interviews, assessing activity reports, and writing public accounts.
+        - HCERES is an independant public institution in charge of the evaluation of all French higher education and research structure. Any higher education or research entity is visited and evaluated at least every 5 years.
+    
+    - title: Project manager in the Networking Department
+      institution: National Board of French Engineering Students (<a href="https://www.bnei.fr/">BNEI</a>), France
+      year: 9/2020 - 10/2021
+      description:
+        - Defined a membership strategy for the elected student representatives in the BNEI, and monitored student associations during the epidemic.
+        - The BNEI represents all 185,000 French engineering students by federating student unions (BDE) and student representatives.
+
+
+- title: Scientific and cultural service
+  type: time_table
+  contents:
+    - title: Weekend teacher at <a href="https://stanfordesp.org/">Stanford Splash<a/>
+      institution: Stanford University, California, USA
+      year: 11/2022
+      description:
+        - Taught the classes "Philosophy of time" and "Creativity and AI" to high school students.
+        - Splash is a two-day marathon of classes in a variety of subjects that are open to all students from 12 to 18, for free.
+    
+    - title: Lab visits with the <a href="https://www.linkedin.com/company/ieee-centralesupelec/">IEEE student branch</a>
+      institution: CentraleSupélec, Paris-Saclay, France
+      year: 9/2020 - 10/2021
+      description:
+        - As the past-chair of the student branch, I initated a collaboration with CentraleSupélec's laboratories to organize lab visits for arriving engineering students.
+        - For the first edition, around 100 students benefited from these visits, and IEEE was presented to the whole incoming student batch (~900 students).
+    
+    - title: Weekly tutor at <a href="https://www.oser-cs.fr/">OSER</a>
+      institution: CentraleSupélec, Paris-Saclay, France
+      year: 9/2020 - 6/2021
+      description:
+        - Intervened weekly in high schools of underprivileged areas, to broaden student's horizons and help them fulfil their ambitions.
+        - Each week, we would pick a cultural or scientific topic, and discuss it with the students.
+

@@ -1,0 +1,49 @@
+- title: Science and Engineering
+  type: time_table
+  contents:
+    #- title: Machine Learning with Graphs
+    #  institution: Stanford University, California, USA
+    #  year: 1/2023 - 3/2023
+    #  description:
+    #    - <a href="/assets/pdf/example_pdf.pdf">Example</a>
+
+    - title: Quantum Computing
+      institution: Technische Universität Berlin, Germany
+      year: 4/2022 - 8/2022
+      description: Link to <a href="/assets/pdf/BCB_PoliMi.pdf">PDF</a>.
+    
+    - title: Bioinformatics and Computational Biology
+      institution: Politecnico di Milano, Italy
+      year: 9/2021 - 1/2022
+      description: Link to <a href="/assets/pdf/QC_TUB.pdf">PDF</a>.
+
+
+
+- title: Philosophy (all notes are in French)
+  type: time_table
+  contents:
+    - title: Histoire des sciences - Russell, The Scientific Outlook
+      institution: Sorbonne Université, Paris, France
+      year: 2/2021 - 5/2021
+      description: Link to <a href="/assets/pdf/HistSc_Sorbonne.pdf">PDF</a>.
+    
+    - title: Métaphysique - Le temps
+      institution: Sorbonne Université, Paris, France
+      year: 2/2021 - 5/2021
+      description: Link to <a href="/assets/pdf/Temps_Sorbonne.pdf">PDF</a>.
+    
+    #- title: Introduction à la logique
+    #  institution: Sorbonne Université, Paris, France
+    #  year: 9/2020 - 1/2021
+    #  description:
+    #    - Desc
+
+    - title: Métaphysique - La liberté
+      institution: Sorbonne Université, Paris, France
+      year: 9/2020 - 1/2021
+      description: Link to <a href="/assets/pdf/Liberte_Sorbonne.pdf">PDF</a>.
+
+    - title: Histoire de la philosophie moderne - Leibniz, connaissance et vérité
+      institution: Sorbonne Université, Paris, France
+      year: 9/2020 - 1/2021
+      description: Link to <a href="/assets/pdf/Leibniz1_Sorbonne.pdf">PDF</a>.

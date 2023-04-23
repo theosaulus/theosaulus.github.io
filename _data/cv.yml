@@ -1,97 +1,187 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Théo Saulus
+    - name: Email
+      value: tsaulus at stanford dot edu 
+    - name: Languages spoken
+      value: French, English, German
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Engineering (Diplôme d'ingénieur) - Applied Mathematics
+      institution: CentraleSupélec, Paris-Saclay, France
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: French scientific Grande École, head of Université Paris-Saclay Graduate School of Engineering. Admitted after national competitive examination. 
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - <a href="https://www.centralesupelec.fr/en">CentraleSupélec</a> is ranked 2nd French scientific Grande Ecole for its academic excellence (<a href="https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement/centralesupelec-campus-paris-saclay/">Le Figaro</a>).
+            - <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a> is ranked worldwide 1st in mathematics, and 9th in physics (<a href="https://www.shanghairanking.com/institution/paris-saclay-university">Shanghai ranking</a>).
+        - title: Spent two years abroad in Europe and North America.
+          contents:
+            - Academic semester at <a href="https://www.polimi.it/en">Politecnico di Milano</a>, Italy, as part of <a href="https://www.alliance4tech.eu/free-mobility-in-computer-science-engineering/">Alliance4Tech</a> program. 
+            - Academic semester at <a href="https://www.tu.berlin/en/">Technische Universität Berlin</a>, Germany, as part of <a href="https://www.alliance4tech.eu/free-mobility-in-computer-science-engineering/">Alliance4Tech</a> program. 
+            - Research semester at <a href="https://www.stanford.edu/">Stanford Universiy</a>, California, USA, in <a href="https://ajglab.org/">Gentles Lab</a>, Department of Pathology.
+            - Research semester at <a href="https://mila.quebec/">Mila</a>, Québec, Canada, in <a href="https://yoshuabengio.org/">Bengio Lab</a>.
+        - Broad curriculum in applied mathematics and data science, as well as in biology, applied physics and engineering. 
+    
+    - title: Bachelor in Philosophy
+      institution: Sorbonne Université, Paris, France
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Alongside my scientific studies, entering in third year of the Bachelor’s degree and graduating in one year only.
+        - Curriculum includes metaphysics, history and philosophy of science, logics, political philosophy, Indian philosophy
 
-- title: Experience
+    - title: Preparatory classes to French Grandes Écoles (CPGE) - Physics, Mathematics and Chemistry
+      institution: Lycée Sainte-Geneviève/Ginette, Versailles, France
+      year: 2017 - 2020
+      description:
+        - Intensive undergraduate-level training program for the national entrance exams to French scientific Grandes Écoles.
+        - Lycée Sainte-Geneviève is considered as one of the very best CPGE in France (<a href = "https://www.letudiant.fr/palmares/classement-prepa/maths-spe-pc/ecole-integree-panier.html">L'Etudiant</a>, <a href="https://etudiant.lefigaro.fr/college-lycee/lycee/classement-prepas/prepa-pc/">Le Figaro</a>).
+        - Broad curriculum focused on physics, mathematics and chemistry, with an exposure to programming, philosophy and English.
+
+
+- title: Research experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Research intern
+      institution: <a href="https://yoshuabengio.org/">Bengio Lab</a>, Mila, Québec, Canada
+      year: 4/2023 - 8/2023
+      description: 
+        - Amortized Bayesian causal modeling and application to single-cell biology, supervised by Prof. Yoshua Bengio.
+        - Funded by Mila.
+        # - Report (WIP)
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Visiting student researcher
+      institution: <a href="https://ajglab.org/">Gentles Lab</a>, Stanford University, California, USA
+      year: 9/2022 - 3/2023
+      description: 
+        - Multi-scale machine learning for degenerative disease profiling, supervised by Prof. Andrew Gentles.
+        - Funded jointly by the France-Stanford Center for Interdisciplinary Studies and Gentles Lab.
+        # - Report (WIP)
+    
+    - title: Statistician intern
+      institution: Signals and Systems Laboratory (<a href="https://l2s.centralesupelec.fr/en/">L2S</a>), Paris-Saclay, France
+      year: 2/2022 - 4/2022
+      description: 
+        - Identification of bacteria of the microbiota explaining kidney transplant rejection, supervised by Prof. Arthur Tenenhaus.
+        - Funded by L2S.
+        # - Report (WIP)
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Research assistant intern
+      institution: French Alternative Energies and Atomic Energy Commission (<a href="https://list.cea.fr/en/">CEA</a>), Paris-Saclay, France
+      year: 6/2021 - 7/2021
+      description: 
+        - Testing of a non-destructive eddy current sensor and electromagnetic simulations, supervised by Dr. Denis Premel.
+        # - Private report for confidentiality reasons.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Subsurface ocean of Jupiter’s moon modeling
+      institution: Lycée Sainte-Geneviève & <a href="https://www.ens.psl.eu/en">ENS Paris</a>, France
+      year: 9/2019 - 6/2020
+      description: Set up a downscaled experiment to model the fluid dynamics of subsurface oceans of Jupiter’s moon Europa, using liquid metal and magnets, supervised by Prof. Véronique Mesnil.
 
-- title: Open Source Projects
+
+
+- title: Other work experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Student expert
+      institution: High Council for the Evaluation of Research and Higher Education (<a href="https://www.hceres.fr/en/missions">HCERES</a>), France
+      year: 1/2021 - present
+      description:
+        - Participating in evaluation committees of engineering schools for the HCÉRES":" conducting staff interviews, assessing activity reports, writing public accounts.
+    
+    - title: Telemarketing agent
+      institution: CentraleSupélec, Paris-Saclay, France
+      year: 1/2021 - 5/2021
+      description:
+        - Phoning companies to convince them to sponsor and contribute to CentraleSupélec's development.
+    
+    - title: Private teacher
+      year: 9/2019 - present
+      description:
+        - Private lessons for undergraduate students preparing their competitive exams for the entrance to Grandes Écoles (equivalent to a 2nd year of a Bachelor's degree), in mathematics, physics, chemistry, and philosophy methodolgy.
+
+
+- title: Volunteering experience
+  type: time_table
+  contents:
+    - title: Elected student member of the Academic Board
+      institution: <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a>, France
+      year: 2/2022 - present
+
+    - title: Team member for international collaborations
+      institution: <a href="https://polimidatascientists.it/">Polimi Data Scientists</a>, Milan, Italy
+      year: 10/2021 - 2/2022
+
+    - title: Past-Chair
+      institution: <a href="https://www.linkedin.com/company/ieee-centralesupelec/">IEEE Paris-Saclay</a> student branch, France
+      year: 9/2020 - 10/2021
+
+    - title: Project manager in the networking department
+      institution: National Board of French Engineering Students (<a href="https://www.bnei.fr/">BNEI</a>), France
+      year: 9/2020 - 10/2021
+
+    - title: Tutor
+      institution: <a href="https://www.oser-cs.fr/">OSER</a> student association (oser means "daring" in French), Paris area, France
+      year: 9/2020 - 6/2021  
+
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: France-Stanford Center for Interdisciplinary Studies fellowship
+      year: 2022
+      description: 
+        - Sponsors and provides funding for high quality research projects likely to foster new linkages and deepen existing connections between French scholars and students and their counterparts at Stanford University.
+        - 8 recipients nationwide
+    
+    - title: CentraleSupélec Alumni Association award
+      year: 2021
+      description: 
+        - Rewards dedication to community service and academic excellence.
+        - 15 recipients among 4700 students
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: European Erasmus+ scholarship
+      year: 2021
+      description: Providing financial support for academic exchanges (in Italy and Germany in my case). 
+    
+    - title: CentraleSupélec Occitanie-Méditerranée fellowship
+      year: 2020
+      description: Rewards the best project aiming at preservating the industrial, ecological or cultural heritage of the Occitanie-Méditerranée region, its coastline, or more generally the Mediterranean Sea. 
+    
+    - title: Provence region scholarship
+      year: 2017
+      description: Merit scholarship for outstanding students from the Provence-Alpes-Côte-d'Azur region.
+    
+    - title: Cicero national Latin translation contest
+      year: 2016
+      description: Listed among the laureates, high-school category.
 
-- title: Other Interests
-  type: list
+
+- title: Other projects
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Pollution from jeans production
+      institution: Technische Universität Berlin, Germany
+      year: 4/2022 - 7/2022
+
+    - title: Bayesian modeling for a corpus of documents
+      institution: Politecnico di Milano, Italy
+      year: 9/2021 - 1/2022
+
+    - title: Underwater drone swarm simulation
+      institution: CentraleSupélec & Thales Defence Mission Systems, France
+      year: 9/2020 - 7/2021
+
+    - title: Subsurface ocean of Jupiter’s moon modeling
+      institution: Lycée Sainte-Geneviève & ENS Paris, France
+      year: 9/2019 - 6/2020
+      
+    - title: Study of preferential transfers in porous media
+      institution: Lycée Sainte-Geneviève & Agro ParisTech, France
+      year: 9/2018 - 7/2019
+
