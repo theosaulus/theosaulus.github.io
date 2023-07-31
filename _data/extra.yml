@@ -28,6 +28,12 @@
 - title: Scientific and cultural service
   type: time_table
   contents:
+    - title: Volunteer
+      institution: <a href="https://dataforgood.fr/">Data for Good</a>, France
+      year: 2/2023 - present
+      description:
+        - Co-author of the white paper "The great challenges of Generative AI".
+
     - title: Weekend teacher at <a href="https://stanfordesp.org/">Stanford Splash<a/>
       institution: Stanford University, California, USA
       year: 11/2022

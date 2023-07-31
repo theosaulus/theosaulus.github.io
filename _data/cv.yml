@@ -9,46 +9,11 @@
       value: French, English, German
 
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Master of Science in Engineering (Diplôme d'ingénieur) - Applied Mathematics
-      institution: CentraleSupélec, Paris-Saclay, France
-      year: 2020 - 2024
-      description:
-        - title: French scientific Grande École, head of Université Paris-Saclay Graduate School of Engineering. Admitted after national competitive examination. 
-          contents:
-            - <a href="https://www.centralesupelec.fr/en">CentraleSupélec</a> is ranked 2nd French scientific Grande Ecole for its academic excellence (<a href="https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement/centralesupelec-campus-paris-saclay/">Le Figaro</a>).
-            - <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a> is ranked worldwide 1st in mathematics, and 9th in physics (<a href="https://www.shanghairanking.com/institution/paris-saclay-university">Shanghai ranking</a>).
-        - title: Spent two years abroad in Europe and North America.
-          contents:
-            - Academic semester at <a href="https://www.polimi.it/en">Politecnico di Milano</a>, Italy, as part of <a href="https://www.alliance4tech.eu/free-mobility-in-computer-science-engineering/">Alliance4Tech</a> program. 
-            - Academic semester at <a href="https://www.tu.berlin/en/">Technische Universität Berlin</a>, Germany, as part of <a href="https://www.alliance4tech.eu/free-mobility-in-computer-science-engineering/">Alliance4Tech</a> program. 
-            - Research semester at <a href="https://www.stanford.edu/">Stanford Universiy</a>, California, USA, in <a href="https://ajglab.org/">Gentles Lab</a>, Department of Pathology.
-            - Research semester at <a href="https://mila.quebec/">Mila</a>, Québec, Canada, in <a href="https://yoshuabengio.org/">Bengio Lab</a>.
-        - Broad curriculum in applied mathematics and data science, as well as in biology, applied physics and engineering. 
-    
-    - title: Bachelor in Philosophy
-      institution: Sorbonne Université, Paris, France
-      year: 2020 - 2021
-      description:
-        - Alongside my scientific studies, entering in third year of the Bachelor’s degree and graduating in one year only.
-        - Curriculum includes metaphysics, history and philosophy of science, logics, political philosophy, Indian philosophy
-
-    - title: Preparatory classes to French Grandes Écoles (CPGE) - Physics, Mathematics and Chemistry
-      institution: Lycée Sainte-Geneviève/Ginette, Versailles, France
-      year: 2017 - 2020
-      description:
-        - Intensive undergraduate-level training program for the national entrance exams to French scientific Grandes Écoles.
-        - Lycée Sainte-Geneviève is considered as one of the very best CPGE in France (<a href = "https://www.letudiant.fr/palmares/classement-prepa/maths-spe-pc/ecole-integree-panier.html">L'Etudiant</a>, <a href="https://etudiant.lefigaro.fr/college-lycee/lycee/classement-prepas/prepa-pc/">Le Figaro</a>).
-        - Broad curriculum focused on physics, mathematics and chemistry, with an exposure to programming, philosophy and English.
-
-
 - title: Research experience
   type: time_table
   contents:
     - title: Research intern
-      institution: <a href="https://yoshuabengio.org/">Bengio Lab</a>, Mila, Québec, Canada
+      institution: <a href="https://yoshuabengio.org/">Yoshua Bengio's group</a>, Mila, Québec, Canada
       year: 4/2023 - 8/2023
       description: 
         - Amortized Bayesian causal modeling and application to single-cell biology, supervised by Prof. Yoshua Bengio.
@@ -84,15 +49,56 @@
       description: Set up a downscaled experiment to model the fluid dynamics of subsurface oceans of Jupiter’s moon Europa, using liquid metal and magnets, supervised by Prof. Véronique Mesnil.
 
 
+- title: Education
+  type: time_table
+  contents:
+    - title: Engineering Master's degree (Diplôme d'ingénieur) - Applied Mathematics and Data Science
+      institution: CentraleSupélec, Paris-Saclay, France
+      year: 2020 - 2024
+      description:
+        - title: French scientific Grande École, head of Université Paris-Saclay Graduate School of Engineering. Admitted after national competitive examination. 
+          contents:
+            - <a href="https://www.centralesupelec.fr/en">CentraleSupélec</a> is ranked 2nd French scientific Grande Ecole for its academic excellence (<a href="https://etudiant.lefigaro.fr/etudes/ecoles-ingenieurs/classement/centralesupelec-campus-paris-saclay/">Le Figaro</a>).
+            - <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a> is ranked worldwide 1st in mathematics, and 9th in physics (<a href="https://www.shanghairanking.com/institution/paris-saclay-university">Shanghai ranking</a>).
+        - title: Spent two years abroad in Europe and North America.
+          contents:
+            - Academic semester at <a href="https://www.polimi.it/en">Politecnico di Milano</a>, Italy, as part of <a href="https://www.alliance4tech.eu/free-mobility-in-computer-science-engineering/">Alliance4Tech</a> program. 
+            - Academic semester at <a href="https://www.tu.berlin/en/">Technische Universität Berlin</a>, Germany, as part of <a href="https://www.alliance4tech.eu/free-mobility-in-computer-science-engineering/">Alliance4Tech</a> program. 
+            - Research semester at <a href="https://www.stanford.edu/">Stanford Universiy</a>, California, USA, in <a href="https://ajglab.org/">Andrew Gentles' Lab</a>, Department of Pathology.
+            - Research semester at <a href="https://mila.quebec/">Mila</a>, Québec, Canada, in <a href="https://yoshuabengio.org/">Yoshua Bengio's group</a>.
+        - Broad curriculum in mathematics, as well as in computer science, biology, applied physics and engineering. 
+    
+    - title: Research Master's degree - Mathematics, Computer Vision, Machine Learnig (MVA)
+      institution: École Normale Supérieure, Paris-Saclay, France
+      year: 2023 - 2024
+      description:
+        - Alongside my engineering studies, to continue towards a research curriculum.
+        - <a href="https://www.master-mva.com/">Master MVA</a> is considered as a reference for machine learning studies in France (<a href="https://www.lemonde.fr/campus/article/2022/05/14/a-saclay-le-master-qui-forme-la-creme-de-la-creme-des-specialistes-en-intelligence-artificielle_6126045_4401467.html">Le Monde</a>)
+
+    - title: Bachelor's degree in Philosophy
+      institution: Sorbonne Université, Paris, France
+      year: 2020 - 2021
+      description:
+        - Alongside my scientific studies, entering in third year of the Bachelor’s degree and graduating in one year only.
+        - Curriculum includes metaphysics, history and philosophy of science, logics, political philosophy, Indian philosophy.
+
+    - title: Preparatory classes to French Grandes Écoles (CPGE) - Physics, Mathematics and Chemistry
+      institution: Lycée Sainte-Geneviève/Ginette, Versailles, France
+      year: 2017 - 2020
+      description:
+        - Intensive undergraduate-level training program for the national entrance exams to French scientific Grandes Écoles.
+        - Lycée Sainte-Geneviève is considered as one of the very best CPGE in France (<a href = "https://www.letudiant.fr/palmares/classement-prepa/maths-spe-pc/ecole-integree-panier.html">L'Etudiant</a>, <a href="https://etudiant.lefigaro.fr/college-lycee/lycee/classement-prepas/prepa-pc/">Le Figaro</a>).
+        - Broad curriculum focused on physics, mathematics and chemistry, with an exposure to programming, philosophy and English.
+
 
 - title: Other work experience
   type: time_table
   contents:
     - title: Student expert
       institution: High Council for the Evaluation of Research and Higher Education (<a href="https://www.hceres.fr/en/missions">HCERES</a>), France
-      year: 1/2021 - present
+      year: 1/2021 - 5/2022
       description:
-        - Participating in evaluation committees of engineering schools for the HCÉRES":" conducting staff interviews, assessing activity reports, writing public accounts.
+        - Participating in evaluation committees of engineering schools for the HCÉRES, conducting staff interviews, assessing activity reports, writing public accounts.
     
     - title: Telemarketing agent
       institution: CentraleSupélec, Paris-Saclay, France
@@ -109,9 +115,17 @@
 - title: Volunteering experience
   type: time_table
   contents:
+    - title: Volunteer
+      institution: <a href="https://dataforgood.fr/">Data for Good</a>, France
+      year: 2/2023 - present
+
     - title: Elected student member of the Academic Board
       institution: <a href="https://www.universite-paris-saclay.fr/en">Université Paris-Saclay</a>, France
       year: 2/2022 - present
+
+    - title: Splash Teacher
+      institution: <a href="https://stanfordesp.com/">Stanford Splash</a>, California, USA
+      year: 11/2022 - 12/2022
 
     - title: Team member for international collaborations
       institution: <a href="https://polimidatascientists.it/">Polimi Data Scientists</a>, Milan, Italy
@@ -125,9 +139,9 @@
       institution: National Board of French Engineering Students (<a href="https://www.bnei.fr/">BNEI</a>), France
       year: 9/2020 - 10/2021
 
-    - title: Tutor
-      institution: <a href="https://www.oser-cs.fr/">OSER</a> student association (oser means "daring" in French), Paris area, France
-      year: 9/2020 - 6/2021  
+    - title: Weekly visitor
+      institution: <a href="https://fondation-anne-de-gaulle.org/etablissements/foyer-anne-de-gaulle-saint-louis/#">Foyer Saint-Louis</a>, Versailles, France
+      year: 9/2017 - 6/2018  
 
 
 - title: Honors and Awards
