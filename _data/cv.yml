@@ -14,7 +14,7 @@
   contents:
     - title: Research intern
       institution: <a href="https://yoshuabengio.org/">Yoshua Bengio's group</a>, Mila, Québec, Canada
-      year: 4/2023 - 8/2023
+      year: 4/2023 - 9/2023
       description: 
         - Amortized Bayesian causal modeling and application to single-cell biology, supervised by Prof. Yoshua Bengio.
         - Funded by Mila.
@@ -147,6 +147,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: iGEM Gold Medal
+      year: 2023
+      description:
+        - Member of the Evry-Paris-Saclay team for iGEM 2023 international synthetic biology competition.
+        - Awarded world best Hardware, Gold medal, and nominated for world best Software.
+
     - title: France-Stanford Center for Interdisciplinary Studies fellowship
       year: 2022
       description: 
