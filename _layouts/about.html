@@ -40,13 +40,19 @@ layout: default
             {{ content }}
           </div>
 
-          {% if page.news -%}
           <!-- News -->
+          {% if page.news -%}
           {%- include news.html %}
           {%- endif %}
+
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+          {%- include latest_posts.html %}
+          {%- endif %}
+          
+          <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
+          {%- include selected_papers.html %}
           {%- endif %}
           {%- if page.social %}
           <!-- Social -->
