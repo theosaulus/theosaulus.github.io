@@ -16,6 +16,8 @@ latest_posts: false # includes a list of the newest posts
 social: true  # includes social icons at the bottom of the page
 ---
 
-Student at CentraleSupélec and Ecole Normale Supérieure in Paris-Saclay, previously research intern at Mila and Stanford.
+PhD student at Mila (Quebec AI Institute) and Université de Montréal.
 
-My current research interests range from statistics to deep learning, with a focus on graphs and causality, and their application to scientific discoveries. 
+My research focuses on understanding how models can robustly generalize and develop meaningful abstractions, with an emphasis on causality and applications to scientific discoveries.
+
+Previously, I graduated from CentraleSupélec and École Normale Supérieure Paris-Saclay and completed research internships at Stanford University and InstaDeep.

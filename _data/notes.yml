@@ -1,11 +1,20 @@
 - title: Science and Engineering
   type: time_table
   contents:
+    # - title: Regulating AI
+    #   institution: École Normale Supérieure Paris-Saclay, France
+    #   year: 2/2024 - 4/2024
+    #   description: Link to <a href="/assets/pdf/XXXX.pdf">PDF</a>.
+
+    # - title: Distributed and Large Scale Computing Optimization
+    #   institution: CentraleSupélec, Paris-Saclay, France
+    #   year: 10/2023 - 1/2024
+    #   description: Link to <a href="/assets/pdf/XXXX.pdf">PDF</a>.
+
     #- title: Machine Learning with Graphs
     #  institution: Stanford University, California, USA
     #  year: 1/2023 - 3/2023
-    #  description:
-    #    - <a href="/assets/pdf/example_pdf.pdf">Example</a>
+    #  description: Link to <a href="/assets/pdf/XXXX.pdf">PDF</a>
 
     - title: Quantum Computing
       institution: Technische Universität Berlin, Germany
