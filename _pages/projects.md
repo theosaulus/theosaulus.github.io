@@ -30,12 +30,16 @@ Two-semester research project - CentraleSupélec
 **Course**: Theoretical Principles of Deep Learning - CentraleSupélec  
 **Links**: [GitHub](https://github.com/Ramlaoui/tdl-express-distributions) · [Report](/assets/pdf/TDL_nn_express_distributions-1.pdf)
 
-### PCA-guided search for K-means
+### Open, closed, and everything in between: towards safer large models 
+**Course**: Introduction to AI safety (Turing Seminar) - MVA
+**Links**: [Report](/assets/pdf/Turing_Saulus-V3.pdf)
+
+### PCA-guided Search for K-means
 **Course**: Probabilistic Graphical Models and Deep Generative Models - MVA  
 **Links**: [GitHub](https://github.com/tboulet/PCA-guided-K-means) · [Report](/assets/pdf/PGD_GDA_Kmeans_PCA-8.pdf)  
 
 ### QRT Football Data Challenge
-**Course**: Learning and generation using random sampling - Collège de France  
+**Course**: Learning and Generation using Random Sampling - Collège de France  
 **Links**: [GitHub](https://github.com/tboulet/QRT-Data-Challenge-Football/) · [Report](https://github.com/tboulet/QRT-Data-Challenge-Football/blob/main/report.pdf)  
 
 ### Correlated Topic Models
