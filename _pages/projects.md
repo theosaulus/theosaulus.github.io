@@ -31,7 +31,7 @@ Two-semester research project - CentraleSupélec
 **Links**: [GitHub](https://github.com/Ramlaoui/tdl-express-distributions) · [Report](/assets/pdf/TDL_nn_express_distributions-1.pdf)
 
 ### Open, closed, and everything in between: towards safer large models 
-**Course**: Introduction to AI safety (Turing Seminar) - MVA
+**Course**: Introduction to AI safety (Turing Seminar) - MVA  
 **Links**: [Report](/assets/pdf/Turing_Saulus-V3.pdf)
 
 ### PCA-guided Search for K-means
