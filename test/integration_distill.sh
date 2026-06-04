@@ -4,13 +4,74 @@ set -euo pipefail
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+distill_fixture="_posts/2024-01-03-distill-fixture.md"
 
 cleanup() {
+  rm -f "${distill_fixture}"
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
 
+if [ -e "${distill_fixture}" ]; then
+  echo "distill integration fixture path already exists in _posts" >&2
+  exit 1
+fi
+
+cat >"${distill_fixture}" <<'MARKDOWN'
+---
+layout: distill
+title: distill fixture
+date: 2024-01-03
+description: Fixture post for Distill integration testing.
+comments: true
+giscus_comments: true
+mermaid: true
+tikzjax: true
+related_posts: false
+---
+
+This fixture exercises the plugin-owned Distill runtime without requiring the
+starter demo post to exist in customized sites.
+
+```mermaid
+graph LR
+  A --> B
+```
+
+<script type="text/tikz">
+\begin{tikzpicture}
+  \draw (0,0) -- (1,1);
+\end{tikzpicture}
+</script>
+MARKDOWN
+
 cat >"${tmp_override}" <<'YAML'
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: true
+  features:
+    cv:
+      enabled: false
+    distill:
+      enabled: true
+  compat:
+    bootstrap:
+      enabled: false
+      support_window: v1.0-v1.2
+      deprecates_in: v1.3
+      removed_in: v2.0
+  upgrade:
+    channel: stable
+    auto_apply_safe_fixes: false
+disqus_shortname: false
 giscus:
   repo: alshedivat/al-folio
   repo_id: R_kgDOExample
@@ -20,7 +81,7 @@ YAML
 
 bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
 
-distill_page="${tmp_site}/blog/2021/distill/index.html"
+distill_page="${tmp_site}/blog/2024/distill-fixture/index.html"
 
 if [ ! -f "${distill_page}" ]; then
   echo "distill page was not generated at ${distill_page}" >&2
