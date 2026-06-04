@@ -10,6 +10,26 @@ contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: >
+  <style>
+    :root {
+      --global-code-bg-color: rgba(125, 63, 184, 0.05);
+      --global-theme-color: #7d3fb8;
+      --global-hover-color: #7d3fb8;
+    }
+    html[data-theme='dark'] {
+      --global-bg-color: #1c1c1d;
+      --global-code-bg-color: #2c3237;
+      --global-text-color: #c2c2c2;
+      --global-text-color-light: #c2c2c2;
+      --global-theme-color: #efcc00;
+      --global-hover-color: #efcc00;
+      --global-footer-bg-color: #c2c2c2;
+      --global-footer-text-color: #1c1c1d;
+      --global-footer-link-color: #000000;
+      --global-divider-color: #424246;
+      --global-card-bg-color: #212529;
+    }
+  </style>
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: # add your own keywords or leave empty
