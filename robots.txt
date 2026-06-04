@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://theosaulus.fr//sitemap.xml
+Sitemap: https://theosaulus.fr/sitemap.xml
