@@ -6,7 +6,6 @@ nav: true
 nav_order: 3
 ---
 
-
 ## PhD Projects
 
 ### Playing Coinche with Deep Counterfactual Regret Minimization
