@@ -14,7 +14,11 @@ al-folio-upgrade-report.md
 node_modules/
 output/playwright/
 test-results/
-vendor
+/vendor/*
+!/vendor/gems
+/vendor/gems/*
+# Track the vendored + patched jekyll-3rd-party-libraries gem (see its README.md)
+!/vendor/gems/jekyll-3rd-party-libraries
 
 old_content/
 

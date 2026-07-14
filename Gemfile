@@ -4,7 +4,10 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'jekyll-3rd-party-libraries'
+    # Vendored + patched copy of jekyll-3rd-party-libraries 0.0.1: upstream's gemspec pins
+    # css_parser '< 2.0', which blocks the security-patched css_parser >= 3.0.0. The vendored
+    # copy relaxes only that constraint (lib code is byte-identical). See vendor/gems/.../README.md.
+    gem 'jekyll-3rd-party-libraries', path: 'vendor/gems/jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'
     gem 'jekyll-cache-bust'
     gem 'jekyll-email-protect'
@@ -30,7 +33,7 @@ end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
-    gem 'css_parser'
+    gem 'css_parser', '~> 3.0'  # >= 3.0.0 fixes the SSRF/LFI advisory in read_remote_file
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     # gem 'terser'         # used by jekyll-terser
